@@ -15,5 +15,20 @@
             <description><![CDATA[FocusOS 0.3.0]]></description>
             <enclosure url="https://github.com/kflmhm/focusos-releases/releases/download/v0.3.0/FocusOS-0.3.0.dmg" sparkle:edSignature="Xbzda+8jqkaejwfARS3KuNwwoAKPf5nde4NCeH4FrWcOtVEAIPw6nj/eongHPUYUxjGObasCFjZcj3UTjktoCw==" length="4083445" type="application/octet-stream" />
         </item>
+            <item>
+            <title>0.4.0</title>
+            <pubDate>Wed, 24 Jun 2026 10:14:25 +0000</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>What's new in 0.4.0</h3>
+<ul>
+<li><b>Open at login</b> — start FocusOS automatically when you sign in (Settings → General).</li>
+<li><b>Smarter break pausing</b> — eye breaks now hold during any call, including browser meetings like Google Meet, and while you're screen recording.</li>
+<li><b>Redesigned eye break</b> — a calm starfield with a breathing cue.</li>
+<li><b>Redesigned blocked-site page</b> — shows the site, your focus stats, and a deliberate hold-to-take-a-break.</li>
+</ul>]]></description>
+            <enclosure url="https://github.com/kflmhm/focusos-releases/releases/download/v0.4.0/FocusOS-0.4.0.dmg" sparkle:edSignature="QoJyw4IO+WH3aX4/RLwFmRbhYaQM+0F7lSO5OmjQMbKz6kdWJef2zYaq8CEy4aVXFtKXPdBkKyuYChCsm/EqCQ==" length="4121909" type="application/octet-stream" />
+        </item>
     </channel>
 </rss>
