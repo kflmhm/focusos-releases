@@ -30,5 +30,21 @@
 </ul>]]></description>
             <enclosure url="https://github.com/kflmhm/focusos-releases/releases/download/v0.4.0/FocusOS-0.4.0.dmg" sparkle:edSignature="QoJyw4IO+WH3aX4/RLwFmRbhYaQM+0F7lSO5OmjQMbKz6kdWJef2zYaq8CEy4aVXFtKXPdBkKyuYChCsm/EqCQ==" length="4121909" type="application/octet-stream" />
         </item>
+            <item>
+            <title>0.5.0</title>
+            <pubDate>Fri, 03 Jul 2026 01:17:17 +0000</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>What's new in 0.5.0</h3>
+<ul>
+<li><b>Profile picture</b> — set your own photo in Settings → Account; it shows in the menu bar and on your shared cards.</li>
+<li><b>Share your Activity as a card</b> — Activity → Share Card generates a branded image (FocusOS × your photo, total time on Mac, a Deep/Admin/Meeting/Distraction breakdown, your top 3 apps, and focus quality) to save, copy, or share.</li>
+<li><b>Fix miscategorized time</b> — Settings → Activity categories lets you assign any app or site to Deep work, Admin, Meeting, or Distraction; your stats re-bucket instantly.</li>
+<li><b>More reliable Open at login</b> — the app now re-asserts its login-item registration every launch, so an update can never silently stop it from opening at sign-in.</li>
+<li>Removed the PDF export from Activity in favor of the new Share Card.</li>
+</ul>]]></description>
+            <enclosure url="https://github.com/kflmhm/focusos-releases/releases/download/v0.5.0/FocusOS.dmg" sparkle:edSignature="ETO3ppDWiaZeRPchoifSZefx8IxKS8kd/tvtt4OH7N56YjvBSY2pyrYqVJWy3OCQRBjIqAm4nYfzube21f8TAw==" length="4209384" type="application/octet-stream" />
+        </item>
     </channel>
 </rss>
