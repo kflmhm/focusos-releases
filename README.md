@@ -5,11 +5,14 @@ private repo). Each release ships a notarized `.dmg` as a GitHub Release asset,
 and the [Sparkle](https://sparkle-project.org) auto-updater reads
 [`appcast.xml`](appcast.xml) to deliver updates to installed apps.
 
-## Install
+## Install / Download
 
-Download the latest `FocusOS-x.y.z.dmg` from
-**[Releases](https://github.com/kflmhm/focusos-releases/releases/latest)**, open
-it, and drag **FocusOS** to Applications.
+**[⬇ Download FocusOS](https://github.com/kflmhm/focusos-releases/releases/latest/download/FocusOS.dmg)**
+
+That link is permanent — it always serves the newest release, so you can share
+it anywhere and it never goes stale. Open the `.dmg` and drag **FocusOS** to
+Applications. (Browse all versions on the
+[Releases](https://github.com/kflmhm/focusos-releases/releases) page.)
 
 ## Updates
 
