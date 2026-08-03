@@ -46,5 +46,22 @@
 </ul>]]></description>
             <enclosure url="https://github.com/kflmhm/focusos-releases/releases/download/v0.5.0/FocusOS.dmg" sparkle:edSignature="ETO3ppDWiaZeRPchoifSZefx8IxKS8kd/tvtt4OH7N56YjvBSY2pyrYqVJWy3OCQRBjIqAm4nYfzube21f8TAw==" length="4209384" type="application/octet-stream" />
         </item>
+            <item>
+            <title>0.6.0</title>
+            <pubDate>Mon, 03 Aug 2026 12:04:59 +0000</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>FocusOS 0.6.0</h2>
+<ul>
+  <li><b>Fresh native design</b> — the Reminder, Activity, and Settings tabs (now "Account Center") are fully redesigned with a clean, native macOS look.</li>
+  <li><b>Calmer breaks</b> — the eye-break screen is now a minimal, distraction-free dark screen that's easy on your eyes, and the exercise camera got a sleek new heads-up overlay.</li>
+  <li><b>Pick your camera</b> — if you have more than one camera, choose which one counts your reps (Account Center → Breaks).</li>
+  <li><b>Solid background option</b> — prefer a flat panel over frosted glass? Toggle it in Account Center → Appearance.</li>
+  <li><b>Stability</b> — fixed two separate causes of the app quietly quitting on its own after hours of use.</li>
+  <li><b>Fixes</b> — clicking a notification no longer opens a second copy of the app; smoother countdown and menu animations; many small visual refinements.</li>
+</ul>]]></description>
+            <enclosure url="https://github.com/kflmhm/focusos-releases/releases/download/v0.6.0/FocusOS.dmg" sparkle:edSignature="dTwd9vERZ6EJzDaDlM5g3OlYXWZWQ/XpycfLlspmWg3LRHkHSM+Xbdg0mFYZi05zHK+MDOsJXRPIOcU1Q5ZeDA==" length="5201813" type="application/octet-stream" />
+        </item>
     </channel>
 </rss>
