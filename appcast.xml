@@ -63,5 +63,20 @@
 </ul>]]></description>
             <enclosure url="https://github.com/kflmhm/focusos-releases/releases/download/v0.6.0/FocusOS.dmg" sparkle:edSignature="dTwd9vERZ6EJzDaDlM5g3OlYXWZWQ/XpycfLlspmWg3LRHkHSM+Xbdg0mFYZi05zHK+MDOsJXRPIOcU1Q5ZeDA==" length="5201813" type="application/octet-stream" />
         </item>
+            <item>
+            <title>0.6.1</title>
+            <pubDate>Sun, 09 Aug 2026 10:36:52 +0000</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>FocusOS 0.6.1</h2>
+<ul>
+  <li><b>Break heads-up</b> — a small countdown capsule now appears near your cursor 10 seconds before an eye break, with a Skip button. It sits calmly in place, only gliding over when you move to another part of the screen.</li>
+  <li><b>Skip confirmation</b> — skipping shows a brief FocusOS toast at the bottom of the screen with when the next break will come.</li>
+  <li><b>Binding breaks are binding</b> — with "Allow skip" off, the Escape key no longer bypasses a break (the safety hatches for camera issues remain).</li>
+  <li><b>Fixed</b> — opening Account Center could freeze the app for a few seconds while looking for cameras; toasts could appear off-screen; a boxy shadow artifact under floating capsules.</li>
+</ul>]]></description>
+            <enclosure url="https://github.com/kflmhm/focusos-releases/releases/download/v0.6.1/FocusOS.dmg" sparkle:edSignature="ODM2jlL1oaP+X0cXDAPgndef2IWn6ml22CKOnO2a1Lt9TOhNdAHmpDnBsjFqYp18iEm0YINjwUr4vJJd29NKAQ==" length="5204584" type="application/octet-stream" />
+        </item>
     </channel>
 </rss>
