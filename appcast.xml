@@ -78,5 +78,32 @@
 </ul>]]></description>
             <enclosure url="https://github.com/kflmhm/focusos-releases/releases/download/v0.6.1/FocusOS.dmg" sparkle:edSignature="ODM2jlL1oaP+X0cXDAPgndef2IWn6ml22CKOnO2a1Lt9TOhNdAHmpDnBsjFqYp18iEm0YINjwUr4vJJd29NKAQ==" length="5204584" type="application/octet-stream" />
         </item>
+            <item>
+            <title>0.7.0</title>
+            <pubDate>Wed, 12 Aug 2026 09:48:44 +0000</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>What's new</h3>
+<ul>
+  <li><strong>Completed tasks now filter by date.</strong> The Task tab has Today, Yesterday, Last&nbsp;7&nbsp;days, Last&nbsp;30&nbsp;days and Custom across the top — so a finished list stops growing forever. Completed gets its own section, and tasks you tick off from now on are timestamped.</li>
+  <li><strong>Pause during calls actually knows when you're on one.</strong> It watches whether your camera or microphone is in use, instead of checking for a list of apps. That catches calls in a browser tab — Meet, or Zoom on the web — and stops Zoom sitting open in the background from blocking breaks all day. Breaks now hold until the call really ends, rather than interrupting after ten minutes.</li>
+</ul>
+
+<h3>Fixes</h3>
+<ul>
+  <li>The heads-up countdown could count down over and over without the break ever starting.</li>
+  <li>The app could freeze for a couple of seconds when the break chime played.</li>
+  <li>"Take a break now" no longer drops a fullscreen overlay onto a live call.</li>
+  <li>Fewer spurious notification-permission errors at launch.</li>
+  <li>Reduced background work while the popover is closed.</li>
+</ul>
+
+<h3>Removed</h3>
+<ul>
+  <li>The <em>Clear All</em> button, which deleted every completed task regardless of the range on screen.</li>
+</ul>]]></description>
+            <enclosure url="https://github.com/kflmhm/focusos-releases/releases/download/v0.7.0/FocusOS.dmg" sparkle:edSignature="dMhvl+Xa95J1007UDWSqrCsKQ5Z8z02F/aiN2INle3nGSzIBh9v83OMWSQ4p74qgPwTCa5/dxfdUkA5NEfbkAw==" length="5264833" type="application/octet-stream" />
+        </item>
     </channel>
 </rss>
