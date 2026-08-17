@@ -105,5 +105,25 @@
 </ul>]]></description>
             <enclosure url="https://github.com/kflmhm/focusos-releases/releases/download/v0.7.0/FocusOS.dmg" sparkle:edSignature="dMhvl+Xa95J1007UDWSqrCsKQ5Z8z02F/aiN2INle3nGSzIBh9v83OMWSQ4p74qgPwTCa5/dxfdUkA5NEfbkAw==" length="5264833" type="application/octet-stream" />
         </item>
+            <item>
+            <title>0.8.0</title>
+            <pubDate>Mon, 17 Aug 2026 18:49:27 +0000</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>What's new</h3>
+<ul>
+  <li><strong>The heads-up before a break is now something you can act on.</strong> Thirty seconds instead of ten, and alongside <em>Skip</em> there's <em>Start now</em> and three snooze steps — +1m, +5m, +15m. Push a break out without opening the menu, or take it early and get on with your day.</li>
+  <li><strong>A paused break says so.</strong> If your camera or mic is live — a call, a recording — the break that just came due tells you it's waiting, instead of the countdown reaching zero and nothing happening. Once per pause, not once a minute. The same goes for a screen recording, and the Now tab carries the reason for as long as it lasts.</li>
+</ul>
+
+<h3>Fixes</h3>
+<ul>
+  <li><strong>Eye breaks never arrived if a screen recorder was open.</strong> A recorder merely <em>running</em> counted as an active recording, so an app left open all day — Screen Studio, OBS, CapCut — deferred every break indefinitely. FocusOS now looks for an actual capture, not an open app.</li>
+  <li>The heads-up could count down over and over while the break kept being pushed away.</li>
+  <li>The break menu read "Next break in Held" while a break was waiting on a call.</li>
+</ul>]]></description>
+            <enclosure url="https://github.com/kflmhm/focusos-releases/releases/download/v0.8.0/FocusOS.dmg" sparkle:edSignature="zbiHrFqDciz6fa30OefJU3BGMqOsA5bPtfu7PT7ZDxtXvjEgeqZWw17CeJsF1/+KPUTvqANe1Bi7g89m1k5nAA==" length="5279708" type="application/octet-stream" />
+        </item>
     </channel>
 </rss>
