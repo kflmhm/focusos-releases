@@ -125,5 +125,28 @@
 </ul>]]></description>
             <enclosure url="https://github.com/kflmhm/focusos-releases/releases/download/v0.8.0/FocusOS.dmg" sparkle:edSignature="zbiHrFqDciz6fa30OefJU3BGMqOsA5bPtfu7PT7ZDxtXvjEgeqZWw17CeJsF1/+KPUTvqANe1Bi7g89m1k5nAA==" length="5279708" type="application/octet-stream" />
         </item>
+            <item>
+            <title>0.8.1</title>
+            <pubDate>Tue, 18 Aug 2026 14:02:15 +0000</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>What's new</h3>
+<ul>
+  <li><strong>FocusOS puts itself back if it stops unexpectedly.</strong> The app could disappear during the day — most often on waking from sleep — and nothing brought it back, because macOS only opens apps at login, not at wake. It now keeps watch on itself and returns within a few seconds. Quitting still quits, and turning off <em>Open at login</em> still means it stays shut after a restart.</li>
+  <li><strong>The heads-up before an eye break sits under the notch,</strong> in the same place every time, instead of following the cursor around. A card you have to find first is a poor warning.</li>
+  <li><strong>Longer break cadences:</strong> 90, 120 and 150 minutes, alongside the existing ones. The Focus tab and Settings now offer the same list — a cadence picked in one used to leave the other showing nothing selected.</li>
+</ul>
+
+<h3>Fixes</h3>
+<ul>
+  <li><strong>Deleting every task left the Task tab unusable.</strong> The empty screen said "Hit Add New" while the only Add New button was hidden, and there was no other way to add one.</li>
+  <li><strong>Open at login could quietly stop working.</strong> Running FocusOS once from the disk image or your Downloads folder pointed the login item at that copy; move or delete it and nothing launched at login, with the switch still showing "on". FocusOS now keeps the registration on the installed copy.</li>
+  <li>Waking from sleep no longer does its bookkeeping in the middle of the display coming back — one of the moments the app was most likely to crash.</li>
+  <li>The break menu read "Next break in Held" while a break was waiting on a call; it now says why it is waiting.</li>
+  <li>The activity summary read "Nothing tracked in daily yet".</li>
+</ul>]]></description>
+            <enclosure url="https://github.com/kflmhm/focusos-releases/releases/download/v0.8.1/FocusOS.dmg" sparkle:edSignature="rjbRTjYgJXYd3qJQn08i6+1pY2vfLu40TmNngeedZk04WItonYGsdNFRPt53pUsd1KZyqTm6JO2cBsQNfc9rAg==" length="5287540" type="application/octet-stream" />
+        </item>
     </channel>
 </rss>
