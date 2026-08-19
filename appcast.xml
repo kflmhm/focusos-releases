@@ -148,5 +148,25 @@
 </ul>]]></description>
             <enclosure url="https://github.com/kflmhm/focusos-releases/releases/download/v0.8.1/FocusOS.dmg" sparkle:edSignature="rjbRTjYgJXYd3qJQn08i6+1pY2vfLu40TmNngeedZk04WItonYGsdNFRPt53pUsd1KZyqTm6JO2cBsQNfc9rAg==" length="5287540" type="application/octet-stream" />
         </item>
+            <item>
+            <title>0.8.2</title>
+            <pubDate>Wed, 19 Aug 2026 17:13:41 +0000</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.8.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>What's new</h3>
+<ul>
+  <li><strong>Reminders for a specific date and time.</strong> Alongside "On an interval" and "At specific times" there's now <em>On a date</em> — for "call the dentist on Thursday at 3", which neither of the repeating kinds could express. A one-off fires once and then retires itself. If your Mac was asleep at the moment it still arrives on waking, within half an hour; past that the moment has gone, and rather than pretend otherwise the reminder switches itself off.</li>
+  <li><strong>A proper icon picker.</strong> The <strong>+</strong> beside the icons opens a picker with over 1,200 emoji, grouped the way you'd expect and searchable — including by the words people actually use. "coffee" finds ☕ even though Unicode calls it a hot beverage; "rubbish" finds the bin; "gym" finds the weights. It searches as you type, from the second letter.</li>
+  <li><strong>Saved activity cards are named after the days they cover</strong> — <code>FocusOS-activity-2026-08-19.png</code> for a day, <code>…-2026-08-13-to-2026-08-19.png</code> for a range. They used to all share one name, so a folder of them told you nothing.</li>
+</ul>
+
+<h3>Fixes</h3>
+<ul>
+  <li><strong>Ticking off a task mid-session could crash the app.</strong> The "task done" toast was being built and shown inside the click that completed the task, which laid out one view inside another's update — the reliable way into a macOS 26 crash. "Take a break now" had the same shape and is fixed with it.</li>
+  <li><strong>Editing a reminder into a one-off could leave it unable to ever fire</strong>, still showing as on. Reminders already saved that way are repaired on launch.</li>
+</ul>]]></description>
+            <enclosure url="https://github.com/kflmhm/focusos-releases/releases/download/v0.8.2/FocusOS.dmg" sparkle:edSignature="tg48G164Yy7vjhx9E42FuzYzd+IObu2sTpSSs9RSYAsRDZAX/tEe0PaYQv53PGgPoSc8lkgg6H7aVZeR68GSDw==" length="5365107" type="application/octet-stream" />
+        </item>
     </channel>
 </rss>
